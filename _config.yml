@@ -21,7 +21,7 @@
 title: coder-lg's blogs
 email: DO NOT CONTACT
 description: >- # this means to ignore newlines until "baseurl:"
-  THis is coder-lg's blog. Here, you will find blogs on project infos and sneak peeks!
+  This is coder-lg's blog. Here, you will find blogs on project infos and sneak peeks!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  coder-lg
