@@ -14,21 +14,21 @@ https://www.ruby-lang.org/en/ ,
 Install GitHub Desktop, then sign in. 
 Create a repository on GitHub and name it as USERNAME.github.io, where USERNAME is your GitHub username., and hit the Desktop button, first line, and accept it's prompt.
 Then, you click clone in Github Desktop.
-Now, open your terminal and run this command: **gem install jekyll bundle**
+Now, open your terminal and run this command: **gem install jekyll bundle**.
 hen go to your clone repository folder and run this command:
-**jekyll new**
+**jekyll new**.
 Now, wait and when it is done, go to Gemfile and find the first command saying:
-gem "jekyll"
+gem "jekyll".
 Now, add # to the beginning, and it should look like this:
-**#gem "jekyll"**
+**#gem "jekyll"**.
 Now, add this command, right below the hash command:
-**gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins**
-Where, GITHUB-PAGES-VERSION is the version number of your GitHub Pages, find it in this URL:
-https://pages.github.com/versions/
+**gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins**,
+where GITHUB-PAGES-VERSION is the version number of your GitHub Pages, find it in this URL:
+https://pages.github.com/versions/.
 Find only github-pages and enter the version number.
 Then, save and close the Gemfile.
 Then open your terminal of choice and run this command:
-**bundle update**
+**bundle update**.
 Now, open GitHub Desktop and see the bottom left corner. Fill it and hit Commit to master.
 Then, hit Ctrl+P and wait for a few minutes.
 Now, go to USERNAME.github.io, and enter your username intead of USERNAME.
